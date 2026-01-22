@@ -1,24 +1,24 @@
-﻿namespace lab1
+﻿namespace Task4
 {
-	partial class Form1
-	{
-		/// <summary>
-		///  Required designer variable.
-		/// </summary>
-		private System.ComponentModel.IContainer components = null;
+    partial class Form2
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
 
-		/// <summary>
-		///  Clean up any resources being used.
-		/// </summary>
-		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-		protected override void Dispose(bool disposing)
-		{
-			if (disposing && (components != null))
-			{
-				components.Dispose();
-			}
-			base.Dispose(disposing);
-		}
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
 
         #region Windows Form Designer generated code
 
@@ -34,9 +34,9 @@
             // 
             // btnSort
             // 
-            btnSort.Location = new Point(119, 200);
+            btnSort.Location = new Point(115, 202);
             btnSort.Name = "btnSort";
-            btnSort.Size = new Size(117, 50);
+            btnSort.Size = new Size(120, 47);
             btnSort.TabIndex = 0;
             btnSort.Text = "Sort";
             btnSort.UseVisualStyleBackColor = true;
@@ -44,25 +44,26 @@
             // 
             // listBoxResults
             // 
+            listBoxResults.BackColor = SystemColors.Menu;
             listBoxResults.Dock = DockStyle.Right;
             listBoxResults.FormattingEnabled = true;
             listBoxResults.ItemHeight = 15;
-            listBoxResults.Location = new Point(382, 0);
+            listBoxResults.Location = new Point(358, 0);
             listBoxResults.Name = "listBoxResults";
-            listBoxResults.Size = new Size(418, 450);
+            listBoxResults.Size = new Size(442, 450);
             listBoxResults.TabIndex = 1;
-            listBoxResults.SelectedIndexChanged += listBox1_SelectedIndexChanged;
             // 
-            // Form1
+            // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.MenuHighlight;
+            BackColor = SystemColors.ControlDarkDark;
             ClientSize = new Size(800, 450);
             Controls.Add(listBoxResults);
             Controls.Add(btnSort);
-            Name = "Form1";
+            Name = "Form2";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
         }
 
