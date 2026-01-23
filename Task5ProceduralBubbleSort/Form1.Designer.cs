@@ -34,21 +34,26 @@
             // 
             // btnSort
             // 
+            btnSort.BackColor = Color.FromArgb(0, 0, 192);
             btnSort.Dock = DockStyle.Top;
-            btnSort.Font = new Font("Segoe UI", 20F);
+            btnSort.Font = new Font("Segoe UI Black", 30F);
+            btnSort.ForeColor = SystemColors.ControlLightLight;
             btnSort.Location = new Point(0, 0);
             btnSort.Name = "btnSort";
             btnSort.Size = new Size(800, 93);
             btnSort.TabIndex = 0;
             btnSort.Text = "Bubble Sort";
-            btnSort.UseVisualStyleBackColor = true;
+            btnSort.UseVisualStyleBackColor = false;
             btnSort.Click += btnSort_Click;
             // 
             // listBoxResults
             // 
+            listBoxResults.BackColor = Color.Teal;
             listBoxResults.Dock = DockStyle.Fill;
+            listBoxResults.Font = new Font("Segoe UI Light", 15F);
+            listBoxResults.ForeColor = SystemColors.Window;
             listBoxResults.FormattingEnabled = true;
-            listBoxResults.ItemHeight = 15;
+            listBoxResults.ItemHeight = 28;
             listBoxResults.Location = new Point(0, 93);
             listBoxResults.Name = "listBoxResults";
             listBoxResults.Size = new Size(800, 357);

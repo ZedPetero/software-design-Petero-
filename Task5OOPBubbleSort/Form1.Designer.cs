@@ -34,23 +34,29 @@
             // 
             // listBoxResults
             // 
+            listBoxResults.BackColor = SystemColors.MenuHighlight;
             listBoxResults.Dock = DockStyle.Bottom;
+            listBoxResults.Font = new Font("MS Reference Sans Serif", 15F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            listBoxResults.ForeColor = Color.MidnightBlue;
             listBoxResults.FormattingEnabled = true;
-            listBoxResults.ItemHeight = 15;
-            listBoxResults.Location = new Point(0, 86);
+            listBoxResults.ItemHeight = 26;
+            listBoxResults.Location = new Point(0, 108);
             listBoxResults.Name = "listBoxResults";
-            listBoxResults.Size = new Size(800, 364);
+            listBoxResults.Size = new Size(800, 342);
             listBoxResults.TabIndex = 0;
             // 
             // btnSort
             // 
+            btnSort.BackColor = SystemColors.ActiveCaptionText;
             btnSort.Dock = DockStyle.Top;
+            btnSort.Font = new Font("Rockwell Extra Bold", 30F, FontStyle.Bold);
+            btnSort.ForeColor = SystemColors.ButtonFace;
             btnSort.Location = new Point(0, 0);
             btnSort.Name = "btnSort";
-            btnSort.Size = new Size(800, 82);
+            btnSort.Size = new Size(800, 89);
             btnSort.TabIndex = 1;
             btnSort.Text = "Bubble Sort";
-            btnSort.UseVisualStyleBackColor = true;
+            btnSort.UseVisualStyleBackColor = false;
             btnSort.Click += btnSort_Click;
             // 
             // Form1
